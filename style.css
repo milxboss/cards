@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    background-color: dimgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    padding: 1rem;
+}
+
+card p{
+    text-align: justify;
+}
+
+.card h3{
+    font-variant: small-caps;
+}
+
+.card p::first-letter{
+    font-weight: 700;
+    font-style: italic;
+    font-size: 2rem;
+    color: hsl(200, 50%, 40%);
+}
+
+.card a{
+    background-color: rgb(115, 29, 116);
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    max-width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
